@@ -655,9 +655,15 @@ summary {
     left: 299px;
     border-radius: 0px 20px 20px 0px;
     border: none;
-    background: #F16D7F;
+    background: #FFFFFF ;
     align-items: center;
     text-align: center;
+    color: #F16D7F;
+    border: 1px solid #F16D7F;
+}
+
+.poiskbutton:hover {
+    background: #F16D7F;
     color: #FFFFFF;
 }
 
@@ -1222,6 +1228,7 @@ details[open] > .text-summary-catalog{
     width: 300px;
     z-index: 1;
     border-bottom: 2px solid #F9F0DA;
+}
   
 
 .ta:hover {
@@ -1500,4 +1507,4 @@ line-height: 46px;
             width: 100%;
             margin-bottom: 32px;
         }
-    }
+}
