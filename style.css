@@ -1411,6 +1411,10 @@ details[open] > .text-summary-catalog {
   padding-right: 16px;
 }
 
+.mob_menu {
+  display: none;
+}
+
 @media (max-width: 1024px) {
   .foterdowntext {
     margin-top: 29px;
@@ -1529,6 +1533,19 @@ details[open] > .text-summary-catalog {
 }
 
 @media (max-width: 768px) {
+  .mega-heding {
+    margin-top: 0px;
+  }
+  .mob_menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-filter: invert(4);
+            filter: invert(4);
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
   .card-img {
     width: 151px;
   }
